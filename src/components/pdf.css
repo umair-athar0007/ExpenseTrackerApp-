@@ -1,0 +1,151 @@
+.main{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.homebtn{
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    list-style: none;
+    list-style-type: none;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav-item{
+    list-style-type: none;
+}
+.historyy{
+    width: fit-content;
+    margin: auto;
+    margin-top: 50px;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.tablerow {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+.tabledata {
+    padding: 12px 15px;
+    color: royalblue;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.namehead{
+    text-align: center;
+    color: crimson;
+}
+
+
+
+
+/* let transactions = [
+    {
+        description: "umair",
+        amount: 450,
+        id: 12,
+        type: "incom"
+
+    },
+    {
+        description: "qasim",
+        amount: 200,
+        id: 13,
+        type: "incom"
+
+    },
+    {
+        description: "ibrar",
+        amount: -100,
+        id: 14,
+        type: "expense"
+
+    }
+] */
+/* const styles = StyleSheet.create({
+    row: {
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    pageNumber: {
+        position: "absolute",
+        fontSize: 12,
+        bottom: 30,
+        left: 0,
+        right: 0,
+        textAlign: "center",
+        color: "grey",
+        margin: "25px" + "0px",
+        fontSize:34,
+        fontFamily: "sans-serif",
+        minWidth: "400px",
+      
+    },
+    page: {
+        fontSize: 11,
+        flexDirection: "column",
+    },
+    tableContainer: {
+        flexDirection: "row",
+        flexWrap: "wrap",
+    },
+    row: {
+        flexDirection: "row",
+        alignItems: "center",
+        borderBottom: "1px solid #dddddd",
+    },
+  
+   
+    description: {
+        width: "60%",
+        padding: "12px" ,
+        backgroundColor:"#009879",
+        color: "#ffffff",
+    },
+    description2: {
+        width: "60%",
+        padding: "12px" ,
+        color: "royalblue",
+        backgroundColor: "#f3f3f3",
+    },
+    total: {
+        flexDirection: "row",
+        alignItems: "center",
+    },
+    totalinm: {
+        width: "80%",
+        padding: "12px" ,
+        fontSize: "15px",
+        color: "red"
+    },
+    xyz: {
+        width: "40%",
+    },
+    Namehead: {
+        width: "100%",
+        textAlign: "center",
+        fontSize: "20px",
+        color:  "#de1708",
+        borderBottom: "2px solid black",
+    },
+}); */

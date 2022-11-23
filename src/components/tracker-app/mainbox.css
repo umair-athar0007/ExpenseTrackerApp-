@@ -1,0 +1,219 @@
+.mainDiv {
+    width: 350px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    /* border: 1px solid black;
+        box-shadow: 0px 5px 5px 0px red;  */
+}
+
+
+.control {
+    margin: 20px;
+}
+
+#NAME {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.heading2 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mainDiv #balance {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.amount {
+    box-shadow: 2px 2px silver;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.amount .income {
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    display: inline-block;
+    border-right: 1px solid silver;
+}
+
+.amount .expense {
+    text-align: center;
+    width: 150px;
+    height: 70px;
+    float: right;
+}
+
+.amount h3 {
+    margin-top: 0;
+    padding: 8px;
+}
+
+.expense h3 {
+    color: aqua;
+}
+
+.income h3 {
+    color: burlywood;
+}
+
+.history {
+    padding: 10px;
+
+}
+
+.trHistory {
+    margin-bottom: 10px;
+}
+
+#bb {
+    border-bottom: 1px solid silver;
+    padding-bottom: 10px;
+}
+
+.input {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+
+}
+.myform {
+    text-align: left;
+    padding: 5px;
+}
+.myform button {
+    text-align: center;
+    padding: 7px;
+    background-color: cornflowerblue;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+
+.myform button:hover {
+    cursor: pointer;
+    background-color: rgb(20, 92, 228);
+}
+
+.description {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    /* width: 100px; */
+    border-right: 1px solid black;
+    height: auto;
+}
+
+.TrsAmount {
+    font-weight: 800;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    text-align: center;
+    /* width: 100px; */
+    float: right;
+   
+}
+.display {
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    box-shadow: 0 2px 0 0 silver;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;   
+    position: relative;
+
+}
+.reportButton{
+    padding: 10px;
+    font-weight: 700;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.reportButton:hover{
+    color: crimson;
+    border: 2px solid red;
+    background: transparent;
+
+}
+.btndiv{
+    margin-top: 20px;
+}
+.error{
+    text-align: center;
+    color: red;
+}
+.sss{
+    border-right: 4px solid rgb(81, 234, 224);
+}
+.sss:hover{
+    background-color:rgb(81, 234, 224);
+}
+.yyy{
+    border-right: 4px solid rgb(234, 167, 81);
+}
+
+.yyy:hover{
+    background-color:rgb(234, 167, 81)
+}
+
+
+
+.display:hover .crossimg {
+  /* display: block; */
+  cursor: pointer;
+}
+.Editbutton{
+    padding-left: 15px;
+    padding-right: 15px;
+    border-left: 1px solid black ;
+    text-align: center;
+
+}
+.Editbutton button{
+    cursor: pointer;
+border: 1px solid black;
+padding: 8px;
+border-radius: 10px;
+font-size: 1rem;
+font-weight: 700;
+background-color: transparent;
+
+}
+.Editbutton button:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+.Edit input{
+margin-top: 10px;
+}
+.EditmeC{
+    display: none;
+}
